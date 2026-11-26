@@ -17,6 +17,16 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        src/model/floor.h
+        src/model/room.h
+        src/model/equipment.h
+        src/model/recurrence.h
+        src/model/reservation.h
+        src/model/cohort.h
+        src/model/student.h
+        src/model/participant.h
+        src/model/subject.h
+        src/model/instructor.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

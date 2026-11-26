@@ -31,7 +31,7 @@ Planned capabilities:
 
 The application is intended to follow Qt's model/view approach, separating the reservation and room data model from its presentation and editing controls. The data model is expected to represent related entities such as rooms, reservations, modules, cohorts, equipment, and participants.
 
-At present, the codebase is a minimal Qt Widgets scaffold centered on `MainWindow`; the domain model, reservation workflows, persistence, and import/export are not implemented yet.
+The codebase is still an early Qt Widgets scaffold centered on `MainWindow`. It contains empty model class declarations matching the domain entities in the class diagram; their attributes, relationships, and reservation workflows are not implemented yet. The `view` and `controller` folders are currently placeholders.
 
 ## Requirements
 
@@ -89,6 +89,10 @@ cmake --build build
 ├── main.cpp             # Application entry point
 ├── mainwindow.h/.cpp    # Main window scaffold
 ├── mainwindow.ui        # Qt Designer UI
+├── src/
+│   ├── controller/       # Controller placeholders
+│   ├── model/            # Domain model class declarations
+│   └── view/              # View placeholders
 └── README.md
 ```
 
